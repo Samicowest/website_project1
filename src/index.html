@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="output.css">
+    <title>Document</title>
+</head>
+
+<body class=" -z-50 ">
+    <main class="bg-gradient-to-r from-pink-50 via-white w-full py-4 to-white  ">
+        <nav class="bg-gray-50 py-4 px-4 lg:px-20 fixed top-0 left-0  w-full z-50 ">
+            <div class="relative flex  justify-between items-center w-full h-full">
+
+                <h2 class="font-play text-2xl">Paynow </h2>
+                <div class="lg:flex gap-8 items-center hidden">
+                    <a href="#" class="hover:text-purple-400 text-xl font-reddit">How it works</a>
+                    <a href="#" class="hover:text-purple-400 text-xl font-reddit">Payment</a>
+                    <a href="#" class="hover:text-purple-400 text-xl font-reddit">Help</a>
+                    <a href="#" class="hover:text-purple-400 text-xl font-reddit">Fees</a>
+                </div>
+                <div class="hidden items-center gap-8 lg:flex">
+                    <span><a href="#">Sign In</a></span>
+                    <button class="text-gray-50 bg-purple-600 hover:bg-purple-400 px-4 py-2 rounded-md">Sign Up</button>
+                </div>
+                <span class="lg:hidden  cursor-pointer relative" id="menu">
+                    <i class="fa-solid fa-bars hover:text-bg-purple-300 text-2xl  "></i>
+
+                </span>
+                <div class=" fixed hidden top-0 left-0 w-full h-full    dropdown" id="dropdown">
+                    <div
+                        class="relative before:absolute before:-z-20 before:top-0 before:transition-opacity duration-200 bg-black opacity-95 before:left-0 before:w-full before:h-full  ">
+                        <div class="relative flex flex-col gap-4 py-8 z-40 *:text-white px-4 h-full">
+
+                            <div class="absolute top-4 right-6 cursor-pointer" id="close">
+                                <i class="text-2xl fa-solid fa-xmark"></i>
+                            </div>
+                            <a href="#" class="hover:text-purple-400 text-white text-xl font-reddit">How it works</a>
+                            <a href="#" class="hover:text-purple-400 text-white text-xl font-reddit">Payment</a>
+                            <a href="#" class="hover:text-purple-400 text-white text-xl font-reddit">Help</a>
+                            <a href="#" class="hover:text-purple-400 text-white text-xl font-reddit">Fees</a>
+                            <span><a href="#">Sign In</a></span>
+                            <button class="text-gray-50 bg-purple-600 hover:bg-purple-400 px-4 py-2 rounded-md">Sign
+                                Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+        <div
+            class=" px-4 lg:px-20 flex flex-col-reverse lg:flex-row items-center overflow-hidden  justify-between relative z-10 ">
+            <div class="rounded-full w-[500px] bg-purple-100 -z-10 h-[500px] absolute -top-[250px] -right-[200px]">
+
+            </div>
+            <div class="flex flex-col gap-4 lg:w-[50%] py-10 ">
+
+                <h2 class="text-[35px] md:text-[60px] font-bold font-unlock capitalize leading-tight tracking-tight">
+                    Balance your best
+                    interest</h2>
+                <p class="text-sm text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, nulla
+                    cum facere
+                    vero ipsa
+                    doloremque
+                    repellat, rerum, totam aliquid id illum quas ipsam reiciendis dolorem! Magnam nisi repellendus a
+                    inventore.</p>
+                <div class="flex flex-col md:flex-row gap-4">
+
+                    <button
+                        class="shadow-md inline-block bg-white text-purple-300 py-2 px-4 hover:bg-purple-100 hover:text-purple-600">Create
+                        an
+                        Account</button>
+                    <button
+                        class="hover:shadow-md inline-block bg-transparent transition-colors duration-200 text-purple-300 py-2 px-4 hover:bg-purple-100 hover:text-purple-600"><i
+                            class="fa-solid fa-circle-play mr-4 py-4 text-purple-400"></i>Create
+                        </i>See how it works</button>
+                </div>
+            </div>
+            <div class="lg:w-[50%] py-4 md:py-10">
+
+                <div class="w-full md:w-[500px]  h-[400px] md:h-[500px] p-4  ">
+                    <img src="../img/hero.png" class=" md:w-full h-full object-contain md:object-cover"
+                        alt="hero-image">
+                </div>
+            </div>
+        </div>
+        <div class="py-4 md:py-10 px-8 lg:px-20">
+            <div class="title  items-center flex justify-center flex-col py-4">
+                <div class="lg:w-[600px]">
+
+                    <h2 class="text-4xl font-bold text-center capitalize text-gray-600">Why choose us?</h2>
+                    <p class="text-center text-sm text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                        Iure illo, whieid ikwike kdfils kfjej f kfoiweiur ijfijfwi
+                        quibusdam cumque.</p>
+                </div>
+
+            </div>
+            <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+                <div class="flex justify-center items-center flex-col gap-4 p-4">
+                    <div class="overflow-hidden w-[150px] h-[150px] rounded-full shadow-md">
+                        <img class="object-cover w-full h-full" src="../img/easy.png" alt="">
+                    </div>
+                    <h2 class="text-2xl font-bold text-center">Easy to use</h2>
+                    <p class="text-gray-400 text-sm text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium facilis dicta eveniet
+                        non
+                        cum architecto fuga ipsa obcaecati, dolor possimus!
+                    </p>
+                </div>
+                <div class="flex justify-center items-center flex-col gap-4 p-4">
+                    <div class="overflow-hidden w-[150px] h-[150px] rounded-full shadow-md">
+                        <img class="object-cover w-full h-full" src="../img/fast.png" alt="">
+                    </div>
+                    <h2 class="text-2xl font-bold text-center">Faster Payment</h2>
+                    <p class="text-gray-400 text-sm text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium facilis dicta eveniet
+                        non
+                        cum architecto fuga ipsa obcaecati, dolor possimus!
+                    </p>
+                </div>
+                <div class="flex justify-center items-center flex-col gap-4 p-4">
+                    <div class="overflow-hidden w-[150px] h-[150px] rounded-full shadow-md">
+                        <img class="object-cover w-full h-full" src="../img/safeety.png" alt="">
+                    </div>
+                    <h2 class="text-2xl font-bold text-center">100% Secure</h2>
+                    <p class="text-gray-400 text-sm text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium facilis dicta eveniet
+                        non
+                        cum architecto fuga ipsa obcaecati, dolor possimus!
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="py-10 px-4 flex-col md:flex-row gap-8 lg:px-20 flex items-center justify-center">
+            <div
+                class="w-70% md:w-[50%] h-[350px] md:h-[600px] sm:w-[40%] justify-center flex items-center    relative ">
+                <div
+                    class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-pink-200 rounded-full w-60 h-60 z-0">
+                </div>
+
+                <img src="../img/man_laptop.png" class="w-[100%] h-[100%] object-contain relative z-10"
+                    alt="hero-image">
+            </div>
+
+            <div class=" px-8 w-full  md:w-[50%] ">
+                <div class="pb-4">
+                    <h2 class="text-4xl font-bold capitalize text-gray-800">How does it work?</h2>
+                    <p class="text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure illo,
+                        whieid ikwike kdfils kfjej f kfoiweiur ijfijfwi quibusdam cumque.</p>
+                </div>
+                <div class="flex gap-4 w-sm ">
+
+                    <div class="relative w-[40px] flex flex-col md:items-center ">
+                        <div
+                            class="absolute top-8 left-1/2 h-[190px] md:h-[170px] transform -translate-x-1/2  w-1 bg-transparent border-l-2 border-dotted border-pink-400 z-0">
+                        </div>
+                        .
+                        <div class="h-[100px] md:h-[80px] z-10">
+                            <div class="w-[30px] h-[30px] flex items-center justify-center bg-pink-400 rounded-full ">
+                                <img src="../img/add-user.png" class="" alt="add-users">
+                            </div>
+                        </div>
+                        <div class="h-[100px] md:h-[80px] z-10">
+                            <div class="w-[30px] h-[30px] flex items-center justify-center bg-pink-400 rounded-full ">
+                                <img src="../img/payment.png" class="" alt="payment">
+
+                            </div>
+                        </div>
+                        <div class="h-[100px] md:h-[80px] z-10">
+                            <div class="w-[30px] h-[30px] flex items-center justify-center bg-pink-400 rounded-full ">
+                                <img src="../img/bank.png" class="" alt="banks">
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="w-full md:w-[450px] ">
+                        <div class="py-4">
+                            <h2 class="font-bold text-xl text-gray-700">Sign Up Account</h2>
+                            <p class="text-gray-400 text-sm">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, eius. when, ever you are
+                                there
+                            </p>
+                        </div>
+                        <div class="">
+                            <h2 class="font-bold text-xl text-gray-700">Sign Up Account</h2>
+                            <p class="text-gray-400 text-sm">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, eius. when, ever you are
+                                there
+                            </p>
+                        </div>
+                        <div class="py-3">
+                            <h2 class="font-bold text-xl text-gray-700">Sign Up Account</h2>
+                            <p class="text-gray-400 text-sm">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, eius. when, ever you are
+                                there
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="grid grid-cols-2 px-8 justify-center sm:grid-cols-3 py-8 lg:py-10 lg:px-20 md:grid-cols-3 lg:grid-cols-6 items-center gap-8">
+            <div class="h-[80px]">
+                <img src="../img/company1.png" alt="">
+            </div>
+            <div class="h-[80px]">
+                <img src="../img/company2.png" alt="">
+            </div>
+            <div class="h-[80px]">
+                <img src="../img/company3.png" alt="">
+            </div>
+            <div class="h-[80px]">
+                <img src="../img/company5.png" alt="">
+            </div>
+            <div class="h-[80px]">
+                <img src="../img/company1.png" alt="">
+            </div>
+            <div class="h-[80px]">
+                <img src="../img/company2.png" alt="">
+            </div>
+        </div>
+
+        <div class="flex justify-center flex-col-reverse md:flex-row items-center px-10 lg:px-20 gap-4 py-20">
+            <div class="w-full md:w-[40%]">
+                <h2 class="text-gray-800 leading-loose font-bold">Download Paynow App</h2>
+                <p class="text-gray-400 font-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam
+                    libero et, cum nulla, veritatis
+                    iusto autem voluptates, obcaecati adipisci magni nisi temporibus doloribus doloremque corrupti
+                    repellendus tempore quidem ullam eligendi.</p>
+                <div class="flex md:flex-col xl:flex-row gap-4 py-10">
+                    <button
+                        class="hover:shadow-md inline-block bg-purple-400 transition-colors duration-200 text-sm text-gray-50 py-2 px-4 hover:bg-purple-600 hover:text-purple-600"><i
+                            class="fa-brands fa-google-play mr-4 py-"></i>Create
+                        </i>See how it works</button>
+
+                    <button
+                        class="shadow-md inline-block bg-white text-sm text-purple-300 py-2 px-4 hover:bg-purple-100 hover:text-purple-600">
+                        <i class="fa-brands fa-apple mr-4 py-1"></i>
+                        Create
+                        an
+                        Account</button>
+
+                </div>
+            </div>
+            <div class="w-full md:w-[450px] shrink-0">
+                <img class="w-full h-[270px] md:h-[380px] object-cover" src="../img/phone.png" alt="phone">
+            </div>
+        </div>
+
+
+        <div class="bg-blue-600 text-white py-20 px-10 lg:px-20 flex flex-col sm:flex-row gap-4">
+            <div class="sm:w-[60%]">
+                <h2 class="text-2xl py-4">24/7 Strong Customer Support</h2>
+                <p class="text-gray-400 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, odio?
+                </p>
+            </div>
+            <div class="sm:w-[40%] flex justify-center items-center">
+                <button class="bg-white text-pink-400 shadow-sm hover:shadow-md py-2 px-4 hover:bg-pink-50"><i
+                        class="fa-solid fa-phone mr-4 pr-2"></i>Call for service</button>
+
+            </div>
+
+        </div>
+
+
+
+        <nav class="bg-transparent py-4 px-4 lg:px-20   ">
+            <div class="relative flex  justify-between gap-8 flex-col md:flex-row items-center w-full h-full">
+
+                <h2 class="font-play text-2xl">Paynow </h2>
+                <div class="lg:flex gap-8 items-center ">
+                    <a href="#" class="hover:text-purple-400 text-xl font-reddit">How it works</a>
+                    <a href="#" class="hover:text-purple-400 text-xl font-reddit">Payment</a>
+                    <a href="#" class="hover:text-purple-400 text-xl font-reddit">Help</a>
+                    <a href="#" class="hover:text-purple-400 text-xl font-reddit">Fees</a>
+                </div>
+                <div class="items-center gap-8 lg:flex">
+                    <span
+                        class="bg-blue-950 text-white text-center w-[35px] h-[35px] hover:bg-blue-600 cursor-pointer  text-sm py-2 px-2 rounded-full"><i
+                            class="fa-brands fa-facebook-f"></i></span>
+                    <span
+                        class="bg-blue-300 text-white text-center w-[35px] h-[35px] hover:bg-blue-200  text-sm py-2 px-2 cursor-pointer rounded-full"><i
+                            class="fa-brands fa-twitter"></i></span>
+                    <span
+                        class="bg-red-700 text-white text-center w-[35px] h-[35px] hover:bg-red-600  text-sm py-2 px-2 cursor-pointer rounded-full"><i
+                            class="fa-brands fa-youtube"></i></span>
+                    <span
+                        class="bg-pink-300 text-white text-center w-[35px] h-[35px] hover:bg-pink-200  text-sm py-2 px-2 cursor-pointer rounded-full"><i
+                            class="fa-brands fa-dribbble"></i></span>
+                </div>
+
+
+            </div>
+
+        </nav>
+
+
+
+
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
